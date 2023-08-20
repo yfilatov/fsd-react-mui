@@ -4,7 +4,7 @@ import { StrictMode } from 'react';
 
 // Local imports
 import App from 'app';
-import initI18n from 'widgets/lang';
+import initI18n from 'shared/lang';
 import reportWebVitals from 'shared/util/web-vitals';
 
 // Global initialization
@@ -16,7 +16,7 @@ const reactRoot = ReactDOM.createRoot(htmlRoot);
 reactRoot.render(
   process.env.REACT_APP_SCRICT_MODE === 'true' ? (
     <StrictMode>
-        <App />W
+        <App />
     </StrictMode>
   ) : (
       <App />

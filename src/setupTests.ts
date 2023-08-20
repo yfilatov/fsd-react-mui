@@ -5,7 +5,7 @@
  * Learn more: https://github.com/testing-library/jest-dom
  */
 import '@testing-library/jest-dom';
-import initI18n from './widgets/lang';
+import initI18n from './shared/lang';
 
 // Global initialization
 initI18n();

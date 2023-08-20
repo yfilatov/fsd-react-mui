@@ -1,0 +1,43 @@
+.sideitem {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #B2BAC2;
+  text-decoration: none;
+};
+
+.linktext {
+  padding-left: 16px;
+};
+
+.container {
+  width: 200px;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  align-items: flex-start; /* Align items at the top */
+  height: 100%; /* Full height */
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.user {
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  margin-top: auto;
+
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
