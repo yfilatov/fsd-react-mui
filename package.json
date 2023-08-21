@@ -64,7 +64,8 @@
     "slint:f": "stylelint --fix \"src/**/*.{css,scss}\"",
     "start": "env-cmd --no-override -f ./.env-override/.env.local react-scripts start",
     "start-https": "env-cmd --no-override -f ./.env-override/.env.https.local react-scripts start",
-    "test": "env-cmd --no-override -f ./.env-override/.env.test react-scripts test --env=jsdom --coverage --coverageDirectory='./out/coverage' --watchAll=false"
+    "test": "env-cmd --no-override -f ./.env-override/.env.test react-scripts test --env=jsdom --coverage --coverageDirectory='./out/coverage' --watchAll=false",
+    "docker:build": "./docker/build-docker.bat"
   },
   "jest": {
     "collectCoverageFrom": [

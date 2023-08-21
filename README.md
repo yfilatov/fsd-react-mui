@@ -5,3 +5,6 @@
 - [Feature-Sliced Design](https://feature-sliced.design/ru/)
 - [Material UI Table](https://www.material-react-table.com/)
 
+### Commands:
+
+- `yarn docker:build` - build "fsd-react-[app version]" docker image
